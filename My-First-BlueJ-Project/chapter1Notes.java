@@ -32,6 +32,5 @@ public class chapter1Notes
         String word = new String("Nick Patel");
         Integer number = new Integer(47);
         Double number2 = new Double(34.5);
-        
     }
 }
