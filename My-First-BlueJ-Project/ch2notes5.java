@@ -1,6 +1,6 @@
-    /********************************************************************
+/********************************************************************
 // These are the notes for ch 2 used in hayes class
-//******************************************************************* */
+//********************************************************************/
 //Name
 //Date
 //Program
@@ -11,8 +11,6 @@ import java.util.Random; // lets us use the random class
 //you import the Scanner Class!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 import java.util.Scanner; // last word is the the Class
 
-
-
 import java.util.*;  // let me use any class in the package
 
 //import java.text.*;
@@ -20,14 +18,9 @@ import java.util.*;  // let me use any class in the package
 import java.text.NumberFormat;
 import java.text.DecimalFormat;
 
-
-
 public class ch2notes5
 
 {   enum Flavor {chocolate, strawberry, mitChocolateChip, razberry}
-
-
-
 
 public static void main (String[] args)
 {
@@ -55,7 +48,6 @@ public static void main (String[] args)
         String name = new String("Mike");
         String last = "Hayes";
 
-
 /*
         System.out.printf("Name:  %s \t ID: %5d \n", name,id);
         System.out.println( 'a' + 100 );
@@ -76,18 +68,15 @@ public static void main (String[] args)
         num1 = 23.89765; num2 = 3.4;
 //Your create a NumberFormat and Decimalformat object
 
-
         NumberFormat money = NumberFormat.getCurrencyInstance();
         NumberFormat percent = NumberFormat.getPercentInstance();
         DecimalFormat fmt =new DecimalFormat("0.###");
         DecimalFormat fmt2= new DecimalFormat("0.00");// ## vs 00
-        
 
         System.out.println( "Sub Total: " + money.format(num1) );
         System.out.println( "Sub Total: " + percent.format(num1) );
         System.out.println( "Sub Total: " + fmt.format(num1) );
         System.out.println( "Sub Total: " + fmt2.format(num2) );
-
 
 // page 90 Why do we get this Error???
 /*
@@ -102,7 +91,6 @@ public static void main (String[] args)
         System.out.print("Enter a decimal");
         num = Keyboard.nextDouble ();
         System.out.println(num  );
-
 
         // what happens when you have both of these together
 /*
@@ -120,8 +108,6 @@ public static void main (String[] args)
         lname = Keyboard.next();
         System.out.println(word + "\n" + lname  );
 
-
-
 /*
 //  Can we make a Math Object? What type of class is Math???
       Math silly = new Math();
@@ -130,7 +116,6 @@ public static void main (String[] args)
         System.out.println(Math.sqrt (12));
         System.out.println(Math.pow(2,3));
 //      System.out.println(silly.pow(2,4));
-
 
 /*
 //!!!!!!!!!!!! Make a Random Object called generator
@@ -151,13 +136,6 @@ public static void main (String[] args)
         System.out.println( x == 9 );
         System.out.println(  word.compareTo(word3 ));
         System.out.println(  word.indexOf("p"));
-        
-        
-
-
-
-
-
 
 //System.out.println((int)(letter + letter ) );
 
@@ -171,7 +149,7 @@ public static void main (String[] args)
         double fahrenTemp = celsiusTemp * conversionFactor + BASE;
 
         System.out.println("Celsius Temp: " + celsiusTemp );
-        System.out.println("Fahrenheit Equivalent" + fahrenTemp  );
+        System.out.println("Fahrenheit Equivalent " + fahrenTemp  );
 
 /*
     //num = num + num;
@@ -181,26 +159,8 @@ public static void main (String[] args)
     num = num % 3;
     System.out.println(num);
 
-
-
 /**/
 
 }//end of main
 
 }//end of class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
